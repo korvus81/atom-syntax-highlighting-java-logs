@@ -1,0 +1,17 @@
+{
+  "name": "atom-syntax-highlighting-java-logs",
+  "version": "0.0.1",
+  "description": "Basic syntax highlighting for one form of logback logs",
+  "homepage": "https://github.com/korvus81/atom-syntax-highlighting-java-logs",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.100.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/korvus81/atom-syntax-highlighting-java-logs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/korvus81/atom-syntax-highlighting-java-logs/issues"
+  }
+}

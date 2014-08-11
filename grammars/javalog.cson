@@ -1,0 +1,20 @@
+'scopeName': 'source.javalog'
+'name': 'Java Logs'
+'fileTypes': ['log']
+'patterns': [
+  {
+    'match': '\\b(?i:(0x\\h*))'
+    'name': 'constant.numeric.integer.hexadecimal.python'
+  }
+  {
+    'begin': '^',
+    'end': ' - ',
+    'name': 'prefix.comment',
+    'patterns': [
+      {
+        'match': '\\[com.jive[a-zA-Z0-9._]*\\]',
+        'name': 'prefix.string',
+      }
+    ]
+  }
+]
